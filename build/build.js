@@ -36,5 +36,9 @@ webpack(webpackConfig, function (err, stats) {
             children: false,
             chunks: false,
             chunkModules: false
-        }) + '\n')
+        }) + '\n');
+    const tfile = __dirname + '/../dist/rocaweb.tar.gz';
+    mkdir('-p', __dirname + '/../dist/');
+    cd(__dirname + '/../tmp/');
+    exec('tar -zcf ' + tfile + ' ./*');
 });
