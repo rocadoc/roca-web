@@ -69,15 +69,15 @@ span.icon {
 }
 
 span.file {
-    background: url('img/fi.png') no-repeat 0 3px;
+    background: url('assets/img/fi.png') no-repeat 0 3px;
 }
 
 span.folder {
-    background: url('img/f.png') no-repeat 0 3px;
+    background: url('assets/img/f.png') no-repeat 0 3px;
 }
 
 span.folder.open {
-    background: url('img/fo.png') no-repeat 0 3px;
+    background: url('assets/img/fo.png') no-repeat 0 3px;
 }
 
 /** Page **/
@@ -213,4 +213,3 @@ table td, table th {
     padding: 10px;
     border: 1px solid #DDD;
 }
-
