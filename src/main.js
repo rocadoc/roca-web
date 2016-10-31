@@ -132,6 +132,18 @@ window.app = new Vue({
         currentPage: {
             handler: function (page) {
                 document.title = objectStore.meta.title + ' - ' + page.name;
+
+                window.scrollTo(0, 0);
+
+                if (document.location.hash) {
+                    // put to end of the stack to allow for redraw
+                    setTimeout(() => {
+                        const target = document.getElementById(document.location.hash.substr(1));
+                        if (target) {
+                            target.scrollIntoView();
+                        }
+                    }, 4);
+                }
             },
             deep: true
         },

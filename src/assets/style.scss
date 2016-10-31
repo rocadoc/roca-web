@@ -27,6 +27,15 @@ div#sidebar {
     -ms-user-select: none; /* IE10+ */
 }
 
+#search {
+
+    input[type="search"] {
+        width: 100%;
+        padding: 5px;
+    }
+
+}
+
 #content {
     margin-left: 400px;
     padding: 20px;
@@ -43,7 +52,7 @@ div#sidebar {
 }
 
 #sidebar li.menu-item > div:hover {
-    color: #4078c0;
+    color: #0D47A1;
 }
 
 /* Outer nav */
@@ -127,7 +136,7 @@ hr {
 }
 
 a {
-    color: #4078c0;
+    color: #0D47A1;
     text-decoration: none;
 }
 
