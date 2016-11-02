@@ -1,6 +1,6 @@
-# Roca web UI
+# Rocadocs web UI
 
-See [Roca generator page](https://github.com/rocadoc/web) for more information.
+See [Rocadocs generator page](https://github.com/rocadocs/web) for more information.
 
 
 ## Build Setup
